@@ -1,5 +1,5 @@
 # This ruby script is for killing killmenow process using exec resource
-exec{'pkill killmenow':
+exec{'kill killmenow':
   command => 'pkill killmenow',
   path    => 'usr/bin'
   }
